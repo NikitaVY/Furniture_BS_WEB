@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar-brand img{
+    height: 40px;
+    width: 70px;
+  }
+  .navbar-brand, .nav-link {
+    font-weight: 700;
+  }
+  .jumbotron {
+    background-image: url("./assets/BGImg.jpg");
+    background-size: cover;
+    padding: 4rem 2rem;
+    color: white;
+ }
+ .images{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+  }
+  .hero1 i{
+    background-color: rgba(128, 128, 128, 0.548);
+    padding: 20px;
+    font-size: 50px;
+  }
+  .hero1 i:hover{
+    background-color: rgb(255, 166, 0);
+  }
+  footer .container ul li a{
+    color: white;
+    margin-left: 15px;
+  }
+  footer .container ul li a:hover{
+    font-size: 20px;
+    transition: ease-in;
+  }
+  main img:hover{
+    border: 5px solid rgb(88, 79, 79);
+    transition: ease-in;
+  }
